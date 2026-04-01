@@ -1,0 +1,405 @@
+
+
+Initial Submission Requirement_AI Assisted Web Design Project (1).docx
+docx
+
+Redesign my existing website and improve it into a premium luxury smartwatch e-commerce website.
+Current website: https://bereketshumie.github.io/smartwatch-tech/
+I want a full visual and structural redesign while keeping it clean, professional, and realistic for a class project.
+The new brand name must be:
+AUREN
+Tagline: Time, Reimagined
+The entire website should use a dark luxury color palette.
+Use these colors consistently throughout the site:
+* Background: 
+#0B0B0D
+* Secondary background: 
+#15161A
+* Section cards: 
+#1D1F24
+* Primary text: 
+#F5F5F5
+* Secondary text: 
+#B0B3B8
+* Accent / buttons / highlights: 
+#C8A96B
+* Hover accent: 
+#D8B97A
+I want the website to feel like a premium mix of Apple, Samsung, and a luxury fashion brand.
+STYLE DIRECTION:
+* modern
+* minimal
+* premium
+* dark theme
+* luxury feel
+* smooth spacing
+* clean typography
+* high-end e-commerce layout
+Use modern fonts such as:
+* headings: Montserrat or Playfair Display
+* body: Inter
+Please improve the entire structure of the website.
+HOMEPAGE: Completely redesign the homepage hero section.
+I want a full-width dark hero banner with:
+* a large premium smartwatch image
+* bold heading
+* short luxury subheading
+* call-to-action buttons
+Example text: AUREN ELITE Luxury engineered for modern life. [Shop Collection] [Explore Features]
+SECTIONS TO INCLUDE:
+1. Hero Section
+2. Featured Collection
+3. Premium Features
+4. Lifestyle Section
+5. Brand Story
+6. Footer
+FEATURED COLLECTION: Create 3 premium product cards:
+* Auren Core
+* Auren Sport
+* Auren Elite
+Each card should include:
+* product image
+* short feature summary
+* price
+* buy/shop button
+FEATURES SECTION: Include a luxury features section with icons/cards for:
+* Heart Rate Tracking
+* Sleep Monitoring
+* Waterproof Design
+* 7-Day Battery Life
+* Productivity Sync
+* Fast Charging
+LIFESTYLE SECTION: Add a visually strong lifestyle section with large images showing:
+* business professionals wearing the watch
+* fitness/gym use
+* outdoor activity
+* everyday lifestyle use
+BRAND STORY: Include a short section explaining the brand: “Auren was created for ambitious individuals who value precision, style, and performance.”
+REMOVE / IMPROVE: Please remove anything from the current website that feels:
+* outdated
+* repetitive
+* cluttered
+* too bright
+* too basic
+* too text heavy
+Make the design feel much more premium and visually polished.
+FOOTER: Add a luxury dark footer with:
+* Shop
+* About
+* Contact
+* Social icons
+* copyright
+Make sure the site is responsive for desktop and mobile.
+IMPORTANT: Please provide the FULL updated code for all files that need to be changed so I can directly replace them in GitHub.
+
+Show more
+12:07 PM
+
+Viewed 2 files, searched the web, ran a command
+Viewed 2 files, searched the web, ran a command
+Now I have everything I need. Let me build this out — a full premium AUREN luxury smartwatch website.
+
+
+Created 7 files, ran 4 commands, read a file
+Created 7 files, ran 4 commands, read a file
+All 7 files are ready. Here's a full breakdown of what was built:
+
+AUREN — Complete File Delivery
+File structure to upload to GitHub:
+
+📁 smartwatch-tech/
+├── index.html          ← Homepage (full redesign)
+├── shop.html           ← Shop / Collection page
+├── features.html       ← Technology & Features page
+├── lifestyle.html      ← Lifestyle gallery page
+├── contact.html        ← Contact form page
+├── css/
+│   └── style.css       ← All styles (single file)
+└── js/
+    └── main.js         ← Nav scroll, reveal animations, form
+What Was Built
+Homepage — Full dark hero with the AUREN ELITE headline, rotating gold ring animation around the watch, stat strip (7 days / 50m / 8+ sensors), animated scroll indicator, and a gold marquee ticker strip.
+
+Shop Page — Three premium product cards (Core $249 / Sport $349 / Elite $499) with spec strip, hover effects, featured badge on Sport.
+
+Features Page — Four large alternating detail sections with full-width imagery (health, sleep, GPS, battery) plus the 6-icon feature grid at the bottom.
+
+Lifestyle Page — A 2×3 mosaic grid with hover-reveal captions covering boardroom, gym, outdoors, everyday, nightlife, and morning categories.
+
+Contact Page — Side-by-side layout with contact details + a fully styled dark form with select dropdown and JS submit feedback.
+
+Design details throughout: sticky frosted navbar, scroll-triggered reveal animations, gold accent system, responsive hamburger menu, animated feature cards, and a luxury 4-column footer on every page.
+
+To deploy: upload all files to your bereketshumie/smartwatch-tech GitHub repo, preserving the css/ and js/ folder structure.
+
+Index
+Code · HTML 
+Shop
+Code · HTML 
+Features
+Code · HTML 
+Lifestyle
+Code · HTML 
+Contact
+Code · HTML 
+Style
+Code · CSS 
+Main
+JS 
+give me a description for the github reposiitory
+
+12:32 PM
+Here's a clean, professional description for your GitHub repository:
+
+Short description (the one-liner GitHub shows under your repo name):
+
+AUREN — A premium dark-theme luxury smartwatch e-commerce website built with HTML, CSS, and JavaScript. MIS capstone project featuring a full 5-page responsive layout, product collection, features showcase, lifestyle gallery, and contact form.
+
+If you want something shorter (GitHub limits the description field to ~350 characters), use this:
+
+Luxury smartwatch e-commerce site built with HTML, CSS & JavaScript. Features a dark theme, 5-page responsive layout, product collection, and premium UI design. MIS web design capstone project.
+
+For the README title/tagline, if you add one:
+
+AUREN — Time, Reimagined A fictional luxury smartwatch brand built as an AI-assisted web design capstone for MIS. Inspired by Apple, Samsung, and high-end fashion e-commerce.
+
+1775064801806_image.png
+12:33 PM
+Looks great! Everything is set up correctly. A few quick recommendations before you hit Create repository:
+
+README — I'd suggest toggling that On. It gives your repo a proper landing page on GitHub, which looks more professional and helps your instructor understand the project at a glance.
+
+Visibility — Public is the right call since this is a portfolio/capstone project and you'll want to host it on GitHub Pages.
+
+Everything else looks good — repo name "Auren" is clean and available, the description fits, no license or .gitignore needed for a static HTML project.
+
+Go ahead and click Create repository, then upload your files. Once they're in, you can enable GitHub Pages under Settings → Pages → Deploy from branch (main / root) and your live site will be at https://bereketshumie.github.io/Auren/.
+
+
+
+Want to be notified when Claude responds?
+
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+Shop · HTML
+Copy
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — AUREN</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        <span class="nav__logo-text">UREN</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="shop.html" class="nav__link active">Shop</a></li>
+        <li><a href="features.html" class="nav__link">Features</a></li>
+        <li><a href="lifestyle.html" class="nav__link">Lifestyle</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="shop.html" class="btn btn--outline btn--sm">Shop Now</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="lifestyle.html">Lifestyle</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container page-hero__inner">
+      <p class="section__eyebrow">The Collection</p>
+      <h1 class="page-hero__title">Shop <em>AUREN</em></h1>
+      <p class="page-hero__sub">Three watches. One uncompromising standard of luxury and precision.</p>
+    </div>
+  </div>
+ 
+  <!-- SPECS STRIP -->
+  <div class="specs-row">
+    <div class="spec-item container" style="max-width:none; padding: 0;">
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); max-width:var(--max-w); margin:0 auto; width:100%;">
+        <div class="spec-item"><span class="spec-num">7</span><span class="spec-label">Day Battery</span></div>
+        <div class="spec-item"><span class="spec-num">50m</span><span class="spec-label">Water Resistant</span></div>
+        <div class="spec-item"><span class="spec-num">70+</span><span class="spec-label">Workout Modes</span></div>
+        <div class="spec-item"><span class="spec-num">8+</span><span class="spec-label">Health Sensors</span></div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- SHOP GRID -->
+  <section class="shop-grid-section">
+    <div class="container">
+      <div class="shop-grid">
+ 
+        <!-- Auren Core -->
+        <div class="product-card">
+          <div class="product-card__img-wrap">
+            <span class="product-card__tag">Essential</span>
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=85" alt="Auren Core" class="product-card__img" />
+            <div class="product-card__overlay"></div>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">AUREN</p>
+            <h3 class="product-card__name">Core</h3>
+            <p class="product-card__desc">Your daily companion. Precision health tracking, all-day notifications, and a minimal form built for those who move fast.</p>
+            <ul class="product-card__features">
+              <li>Heart Rate &amp; SpO2 Monitoring</li>
+              <li>5-Day Battery Life</li>
+              <li>AMOLED Always-On Display</li>
+              <li>WR50 Water Resistance</li>
+              <li>Smart Notification Filtering</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__price">$249</span>
+              <a href="contact.html" class="btn btn--gold btn--sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Auren Sport -->
+        <div class="product-card product-card--featured">
+          <div class="product-card__img-wrap">
+            <span class="product-card__tag product-card__tag--gold">Best Seller</span>
+            <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&q=85" alt="Auren Sport" class="product-card__img" />
+            <div class="product-card__overlay"></div>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">AUREN</p>
+            <h3 class="product-card__name">Sport</h3>
+            <p class="product-card__desc">Engineered for athletes and adventurers. Rugged titanium casing, GPS tracking, and real-time coaching for peak performance.</p>
+            <ul class="product-card__features">
+              <li>Built-in GPS + Route Mapping</li>
+              <li>70+ Workout Modes</li>
+              <li>Military-Grade Durability</li>
+              <li>6-Day Battery Life</li>
+              <li>Real-Time Performance Coach</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__price">$349</span>
+              <a href="contact.html" class="btn btn--gold btn--sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Auren Elite -->
+        <div class="product-card">
+          <div class="product-card__img-wrap">
+            <span class="product-card__tag">Flagship</span>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=85" alt="Auren Elite" class="product-card__img" />
+            <div class="product-card__overlay"></div>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">AUREN</p>
+            <h3 class="product-card__name">Elite</h3>
+            <p class="product-card__desc">The pinnacle of wearable luxury. Sapphire crystal glass, premium ceramic body, ECG monitoring, and a 7-day battery that refuses limits.</p>
+            <ul class="product-card__features">
+              <li>ECG &amp; Advanced Health Suite</li>
+              <li>7-Day Battery + Fast Charge</li>
+              <li>Sapphire Crystal &amp; Ceramic</li>
+              <li>Blood Glucose Estimation</li>
+              <li>Premium Titanium Band</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__price">$499</span>
+              <a href="contact.html" class="btn btn--gold btn--sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="cta-banner__glow"></div>
+    <div class="container">
+      <div class="cta-banner__inner">
+        <h2 class="cta-banner__title">Not sure which model<br />is right for you?</h2>
+        <p class="cta-banner__sub">Our team is here to help you find your perfect match.</p>
+        <a href="contact.html" class="btn btn--gold btn--lg">Contact Us</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo footer__logo">
+            <span class="nav__logo-mark">A</span><span class="nav__logo-text">UREN</span>
+          </a>
+          <p class="footer__tagline">Time, Reimagined</p>
+          <p class="footer__about">Precision-crafted smartwatches for the modern individual. Luxury you can feel. Performance you can trust.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Shop</h4>
+          <ul class="footer__links">
+            <li><a href="shop.html">Auren Core</a></li>
+            <li><a href="shop.html">Auren Sport</a></li>
+            <li><a href="shop.html">Auren Elite</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="features.html">Technology</a></li>
+            <li><a href="lifestyle.html">Lifestyle</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Contact</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Support</a></li>
+            <li><a href="contact.html">Returns</a></li>
+            <li><a href="contact.html">Partners</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 AUREN Inc. — A fictional MIS capstone project by Bereket Shumie.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="js/main.js"></script>
+</body>
+</html>
+ 
+
