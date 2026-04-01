@@ -1,0 +1,676 @@
+
+
+Initial Submission Requirement_AI Assisted Web Design Project (1).docx
+docx
+
+Redesign my existing website and improve it into a premium luxury smartwatch e-commerce website.
+Current website: https://bereketshumie.github.io/smartwatch-tech/
+I want a full visual and structural redesign while keeping it clean, professional, and realistic for a class project.
+The new brand name must be:
+AUREN
+Tagline: Time, Reimagined
+The entire website should use a dark luxury color palette.
+Use these colors consistently throughout the site:
+* Background: 
+#0B0B0D
+* Secondary background: 
+#15161A
+* Section cards: 
+#1D1F24
+* Primary text: 
+#F5F5F5
+* Secondary text: 
+#B0B3B8
+* Accent / buttons / highlights: 
+#C8A96B
+* Hover accent: 
+#D8B97A
+I want the website to feel like a premium mix of Apple, Samsung, and a luxury fashion brand.
+STYLE DIRECTION:
+* modern
+* minimal
+* premium
+* dark theme
+* luxury feel
+* smooth spacing
+* clean typography
+* high-end e-commerce layout
+Use modern fonts such as:
+* headings: Montserrat or Playfair Display
+* body: Inter
+Please improve the entire structure of the website.
+HOMEPAGE: Completely redesign the homepage hero section.
+I want a full-width dark hero banner with:
+* a large premium smartwatch image
+* bold heading
+* short luxury subheading
+* call-to-action buttons
+Example text: AUREN ELITE Luxury engineered for modern life. [Shop Collection] [Explore Features]
+SECTIONS TO INCLUDE:
+1. Hero Section
+2. Featured Collection
+3. Premium Features
+4. Lifestyle Section
+5. Brand Story
+6. Footer
+FEATURED COLLECTION: Create 3 premium product cards:
+* Auren Core
+* Auren Sport
+* Auren Elite
+Each card should include:
+* product image
+* short feature summary
+* price
+* buy/shop button
+FEATURES SECTION: Include a luxury features section with icons/cards for:
+* Heart Rate Tracking
+* Sleep Monitoring
+* Waterproof Design
+* 7-Day Battery Life
+* Productivity Sync
+* Fast Charging
+LIFESTYLE SECTION: Add a visually strong lifestyle section with large images showing:
+* business professionals wearing the watch
+* fitness/gym use
+* outdoor activity
+* everyday lifestyle use
+BRAND STORY: Include a short section explaining the brand: “Auren was created for ambitious individuals who value precision, style, and performance.”
+REMOVE / IMPROVE: Please remove anything from the current website that feels:
+* outdated
+* repetitive
+* cluttered
+* too bright
+* too basic
+* too text heavy
+Make the design feel much more premium and visually polished.
+FOOTER: Add a luxury dark footer with:
+* Shop
+* About
+* Contact
+* Social icons
+* copyright
+Make sure the site is responsive for desktop and mobile.
+IMPORTANT: Please provide the FULL updated code for all files that need to be changed so I can directly replace them in GitHub.
+
+Show more
+12:07 PM
+
+Viewed 2 files, searched the web, ran a command
+Viewed 2 files, searched the web, ran a command
+Now I have everything I need. Let me build this out — a full premium AUREN luxury smartwatch website.
+
+
+Created 7 files, ran 4 commands, read a file
+Created 7 files, ran 4 commands, read a file
+All 7 files are ready. Here's a full breakdown of what was built:
+
+AUREN — Complete File Delivery
+File structure to upload to GitHub:
+
+📁 smartwatch-tech/
+├── index.html          ← Homepage (full redesign)
+├── shop.html           ← Shop / Collection page
+├── features.html       ← Technology & Features page
+├── lifestyle.html      ← Lifestyle gallery page
+├── contact.html        ← Contact form page
+├── css/
+│   └── style.css       ← All styles (single file)
+└── js/
+    └── main.js         ← Nav scroll, reveal animations, form
+What Was Built
+Homepage — Full dark hero with the AUREN ELITE headline, rotating gold ring animation around the watch, stat strip (7 days / 50m / 8+ sensors), animated scroll indicator, and a gold marquee ticker strip.
+
+Shop Page — Three premium product cards (Core $249 / Sport $349 / Elite $499) with spec strip, hover effects, featured badge on Sport.
+
+Features Page — Four large alternating detail sections with full-width imagery (health, sleep, GPS, battery) plus the 6-icon feature grid at the bottom.
+
+Lifestyle Page — A 2×3 mosaic grid with hover-reveal captions covering boardroom, gym, outdoors, everyday, nightlife, and morning categories.
+
+Contact Page — Side-by-side layout with contact details + a fully styled dark form with select dropdown and JS submit feedback.
+
+Design details throughout: sticky frosted navbar, scroll-triggered reveal animations, gold accent system, responsive hamburger menu, animated feature cards, and a luxury 4-column footer on every page.
+
+To deploy: upload all files to your bereketshumie/smartwatch-tech GitHub repo, preserving the css/ and js/ folder structure.
+
+Index
+Code · HTML 
+Shop
+Code · HTML 
+Features
+Code · HTML 
+Lifestyle
+Code · HTML 
+Contact
+Code · HTML 
+Style
+Code · CSS 
+Main
+JS 
+give me a description for the github reposiitory
+
+12:32 PM
+Here's a clean, professional description for your GitHub repository:
+
+Short description (the one-liner GitHub shows under your repo name):
+
+AUREN — A premium dark-theme luxury smartwatch e-commerce website built with HTML, CSS, and JavaScript. MIS capstone project featuring a full 5-page responsive layout, product collection, features showcase, lifestyle gallery, and contact form.
+
+If you want something shorter (GitHub limits the description field to ~350 characters), use this:
+
+Luxury smartwatch e-commerce site built with HTML, CSS & JavaScript. Features a dark theme, 5-page responsive layout, product collection, and premium UI design. MIS web design capstone project.
+
+For the README title/tagline, if you add one:
+
+AUREN — Time, Reimagined A fictional luxury smartwatch brand built as an AI-assisted web design capstone for MIS. Inspired by Apple, Samsung, and high-end fashion e-commerce.
+
+1775064801806_image.png
+12:33 PM
+Looks great! Everything is set up correctly. A few quick recommendations before you hit Create repository:
+
+README — I'd suggest toggling that On. It gives your repo a proper landing page on GitHub, which looks more professional and helps your instructor understand the project at a glance.
+
+Visibility — Public is the right call since this is a portfolio/capstone project and you'll want to host it on GitHub Pages.
+
+Everything else looks good — repo name "Auren" is clean and available, the description fits, no license or .gitignore needed for a static HTML project.
+
+Go ahead and click Create repository, then upload your files. Once they're in, you can enable GitHub Pages under Settings → Pages → Deploy from branch (main / root) and your live site will be at https://bereketshumie.github.io/Auren/.
+
+
+
+Want to be notified when Claude responds?
+
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+Index · HTML
+Copy
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUREN — Time, Reimagined</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <!-- ═══════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════ -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        <span class="nav__logo-text">UREN</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link active">Home</a></li>
+        <li><a href="shop.html" class="nav__link">Shop</a></li>
+        <li><a href="features.html" class="nav__link">Features</a></li>
+        <li><a href="lifestyle.html" class="nav__link">Lifestyle</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="shop.html" class="btn btn--outline btn--sm">Shop Now</a>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="lifestyle.html">Lifestyle</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <!-- ═══════════════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__glow hero__glow--left"></div>
+    <div class="hero__glow hero__glow--right"></div>
+ 
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">New Collection — 2025</p>
+        <h1 class="hero__title reveal reveal--delay-1">
+          AUREN<br /><em>ELITE</em>
+        </h1>
+        <p class="hero__subtitle reveal reveal--delay-2">
+          Luxury engineered<br />for modern life.
+        </p>
+        <div class="hero__actions reveal reveal--delay-3">
+          <a href="shop.html" class="btn btn--gold">Shop Collection</a>
+          <a href="features.html" class="btn btn--ghost">Explore Features</a>
+        </div>
+        <div class="hero__stats reveal reveal--delay-4">
+          <div class="hero__stat">
+            <span class="hero__stat-num">7</span>
+            <span class="hero__stat-label">Day Battery</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">50m</span>
+            <span class="hero__stat-label">Water Resist</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">8+</span>
+            <span class="hero__stat-label">Health Sensors</span>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="hero__visual reveal reveal--delay-2">
+        <div class="hero__watch-wrap">
+          <div class="hero__watch-ring"></div>
+          <img
+            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=90"
+            alt="AUREN Elite Smartwatch"
+            class="hero__watch-img"
+          />
+          <div class="hero__watch-badge">
+            <span>New</span>
+            <span>2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════════════
+       MARQUEE STRIP
+  ═══════════════════════════════════════════════ -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Time, Reimagined</span>
+      <span class="marquee__dot">◆</span>
+      <span>Precision Crafted</span>
+      <span class="marquee__dot">◆</span>
+      <span>Luxury Wearables</span>
+      <span class="marquee__dot">◆</span>
+      <span>Always On</span>
+      <span class="marquee__dot">◆</span>
+      <span>AUREN 2025</span>
+      <span class="marquee__dot">◆</span>
+      <span>Time, Reimagined</span>
+      <span class="marquee__dot">◆</span>
+      <span>Precision Crafted</span>
+      <span class="marquee__dot">◆</span>
+      <span>Luxury Wearables</span>
+      <span class="marquee__dot">◆</span>
+      <span>Always On</span>
+      <span class="marquee__dot">◆</span>
+      <span>AUREN 2025</span>
+      <span class="marquee__dot">◆</span>
+    </div>
+  </div>
+ 
+  <!-- ═══════════════════════════════════════════════
+       FEATURED COLLECTION
+  ═══════════════════════════════════════════════ -->
+  <section class="section collection" id="collection">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Our Collection</p>
+        <h2 class="section__title">Engineered <em>Excellence</em></h2>
+        <p class="section__subtitle">Three distinct expressions of luxury. One uncompromising standard.</p>
+      </div>
+ 
+      <div class="collection__grid">
+ 
+        <!-- Card 1: Auren Core -->
+        <div class="product-card">
+          <div class="product-card__img-wrap">
+            <span class="product-card__tag">Essential</span>
+            <img
+              src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=85"
+              alt="Auren Core"
+              class="product-card__img"
+            />
+            <div class="product-card__overlay"></div>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">AUREN</p>
+            <h3 class="product-card__name">Core</h3>
+            <p class="product-card__desc">Your daily companion. Precision health tracking, all-day notifications, and a minimal form built for those who move fast.</p>
+            <ul class="product-card__features">
+              <li>Heart Rate &amp; SpO2 Monitoring</li>
+              <li>5-Day Battery Life</li>
+              <li>AMOLED Always-On Display</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__price">$249</span>
+              <a href="shop.html" class="btn btn--gold btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Card 2: Auren Sport (featured) -->
+        <div class="product-card product-card--featured">
+          <div class="product-card__img-wrap">
+            <span class="product-card__tag product-card__tag--gold">Best Seller</span>
+            <img
+              src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&q=85"
+              alt="Auren Sport"
+              class="product-card__img"
+            />
+            <div class="product-card__overlay"></div>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">AUREN</p>
+            <h3 class="product-card__name">Sport</h3>
+            <p class="product-card__desc">Engineered for athletes and adventurers. Rugged titanium casing, GPS tracking, and real-time coaching for peak performance.</p>
+            <ul class="product-card__features">
+              <li>Built-in GPS + Route Mapping</li>
+              <li>70+ Workout Modes</li>
+              <li>Military-Grade Durability</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__price">$349</span>
+              <a href="shop.html" class="btn btn--gold btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Card 3: Auren Elite -->
+        <div class="product-card">
+          <div class="product-card__img-wrap">
+            <span class="product-card__tag">Flagship</span>
+            <img
+              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=85"
+              alt="Auren Elite"
+              class="product-card__img"
+            />
+            <div class="product-card__overlay"></div>
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__category">AUREN</p>
+            <h3 class="product-card__name">Elite</h3>
+            <p class="product-card__desc">The pinnacle of wearable luxury. Sapphire crystal glass, premium ceramic body, ECG monitoring, and a 7-day battery that refuses limits.</p>
+            <ul class="product-card__features">
+              <li>ECG &amp; Advanced Health Suite</li>
+              <li>7-Day Battery + Fast Charge</li>
+              <li>Sapphire Crystal &amp; Ceramic</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__price">$499</span>
+              <a href="shop.html" class="btn btn--gold btn--sm">Shop Now</a>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+ 
+      <div class="collection__cta">
+        <a href="shop.html" class="btn btn--outline">View Full Collection</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════════════
+       PREMIUM FEATURES
+  ═══════════════════════════════════════════════ -->
+  <section class="section features" id="features">
+    <div class="features__bg"></div>
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Why AUREN</p>
+        <h2 class="section__title">Built to <em>Perform</em></h2>
+        <p class="section__subtitle">Every sensor, every pixel, every material chosen for those who demand more.</p>
+      </div>
+ 
+      <div class="features__grid">
+ 
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="feature-card__title">Heart Rate Tracking</h3>
+          <p class="feature-card__desc">Continuous optical heart rate monitoring with irregular rhythm notifications and real-time zone alerts.</p>
+        </div>
+ 
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 17H17.01M3 12h1m16 0h1M5.636 5.636l.707.707M18.364 5.636l-.707.707M8 21h8M12 3v1m0 16v1M5 12a7 7 0 0 1 14 0"/></svg>
+          </div>
+          <h3 class="feature-card__title">Sleep Monitoring</h3>
+          <p class="feature-card__desc">Advanced sleep stage analysis — REM, deep, and light cycles — with a morning readiness score tailored to your recovery.</p>
+        </div>
+ 
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="feature-card__title">Waterproof Design</h3>
+          <p class="feature-card__desc">WR50 water resistance rated to 50 meters. Swim, shower, or brave a downpour — AUREN doesn't stop when life gets wet.</p>
+        </div>
+ 
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3 class="feature-card__title">7-Day Battery Life</h3>
+          <p class="feature-card__desc">From Monday to Sunday on a single charge. And when you do need power, 15 minutes of fast charging gives you 8 more hours.</p>
+        </div>
+ 
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17H7A5 5 0 0 1 7 7h2M15 7h2a5 5 0 0 1 0 10h-2M8 12h8"/></svg>
+          </div>
+          <h3 class="feature-card__title">Productivity Sync</h3>
+          <p class="feature-card__desc">Calendar alerts, reply-from-wrist messaging, and focus modes that eliminate digital noise at precisely the right moments.</p>
+        </div>
+ 
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3 class="feature-card__title">Fast Charging</h3>
+          <p class="feature-card__desc">Magnetic wireless charging. Zero cables, zero clutter. Drop it on the pad and it's ready before you are.</p>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════════════
+       LIFESTYLE SECTION
+  ═══════════════════════════════════════════════ -->
+  <section class="section lifestyle" id="lifestyle">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">The AUREN Life</p>
+        <h2 class="section__title">Wherever You <em>Go</em></h2>
+        <p class="section__subtitle">Designed to disappear into your life and elevate every moment of it.</p>
+      </div>
+    </div>
+ 
+    <div class="lifestyle__mosaic">
+      <div class="lifestyle__item lifestyle__item--tall">
+        <img src="https://images.unsplash.com/photo-1549476464-37392f717541?w=700&q=85" alt="Business professional wearing AUREN" />
+        <div class="lifestyle__caption">
+          <span>Boardroom Ready</span>
+        </div>
+      </div>
+      <div class="lifestyle__item">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=85" alt="Fitness use" />
+        <div class="lifestyle__caption">
+          <span>Peak Performance</span>
+        </div>
+      </div>
+      <div class="lifestyle__item">
+        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=85" alt="Outdoor adventure" />
+        <div class="lifestyle__caption">
+          <span>Outdoor Escape</span>
+        </div>
+      </div>
+      <div class="lifestyle__item lifestyle__item--wide">
+        <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=900&q=85" alt="Everyday luxury lifestyle" />
+        <div class="lifestyle__caption">
+          <span>Everyday Excellence</span>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="container">
+      <div class="lifestyle__cta">
+        <a href="lifestyle.html" class="btn btn--outline">Explore the Lifestyle</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════════════
+       BRAND STORY
+  ═══════════════════════════════════════════════ -->
+  <section class="section brand-story">
+    <div class="brand-story__bg"></div>
+    <div class="container">
+      <div class="brand-story__inner">
+        <div class="brand-story__left">
+          <div class="brand-story__line"></div>
+          <p class="section__eyebrow">Our Story</p>
+          <h2 class="brand-story__title">Built for the<br /><em>Ambitious</em></h2>
+          <a href="contact.html" class="btn btn--gold">Get in Touch</a>
+        </div>
+        <div class="brand-story__right">
+          <p class="brand-story__quote">
+            "Auren was created for ambitious individuals who value precision, style, and performance."
+          </p>
+          <p class="brand-story__body">
+            We believe your watch should be as relentless as you are. Every component in an AUREN is obsessed over — from the aerospace-grade sapphire crystal to the adaptive health algorithms learning your unique rhythms.
+          </p>
+          <p class="brand-story__body">
+            We don't make smartwatches. We engineer companions for people who refuse to slow down.
+          </p>
+          <div class="brand-story__values">
+            <div class="brand-story__value">
+              <span class="brand-story__value-num">01</span>
+              <span>Precision</span>
+            </div>
+            <div class="brand-story__value">
+              <span class="brand-story__value-num">02</span>
+              <span>Style</span>
+            </div>
+            <div class="brand-story__value">
+              <span class="brand-story__value-num">03</span>
+              <span>Performance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════════════
+       CTA BANNER
+  ═══════════════════════════════════════════════ -->
+  <section class="cta-banner">
+    <div class="cta-banner__glow"></div>
+    <div class="container">
+      <div class="cta-banner__inner">
+        <h2 class="cta-banner__title">Your next chapter<br />starts on your wrist.</h2>
+        <p class="cta-banner__sub">Limited availability. Ships in 3–5 business days.</p>
+        <a href="shop.html" class="btn btn--gold btn--lg">Shop the Collection</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+ 
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo footer__logo">
+            <span class="nav__logo-mark">A</span>
+            <span class="nav__logo-text">UREN</span>
+          </a>
+          <p class="footer__tagline">Time, Reimagined</p>
+          <p class="footer__about">Precision-crafted smartwatches for the modern individual. Luxury you can feel. Performance you can trust.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+ 
+        <div class="footer__col">
+          <h4 class="footer__col-title">Shop</h4>
+          <ul class="footer__links">
+            <li><a href="shop.html">Auren Core</a></li>
+            <li><a href="shop.html">Auren Sport</a></li>
+            <li><a href="shop.html">Auren Elite</a></li>
+            <li><a href="shop.html">Accessories</a></li>
+            <li><a href="shop.html">Gift Cards</a></li>
+          </ul>
+        </div>
+ 
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="features.html">Technology</a></li>
+            <li><a href="lifestyle.html">Lifestyle</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+ 
+        <div class="footer__col">
+          <h4 class="footer__col-title">Contact</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Support</a></li>
+            <li><a href="contact.html">Warranty</a></li>
+            <li><a href="contact.html">Returns</a></li>
+            <li><a href="contact.html">Press</a></li>
+            <li><a href="contact.html">Partners</a></li>
+          </ul>
+        </div>
+ 
+      </div>
+ 
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 AUREN Inc. — A fictional MIS capstone project by Bereket Shumie.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="js/main.js"></script>
+</body>
+</html>
+ 
+
